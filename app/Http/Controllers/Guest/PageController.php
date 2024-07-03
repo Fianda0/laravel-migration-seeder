@@ -14,7 +14,7 @@ class PageController extends Controller
         $treni = Train::all();
 
         $dati = [
-            'trein' => $treni
+            'treni' => $treni
         ];
 
         return view('home', $dati);
