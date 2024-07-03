@@ -22,8 +22,7 @@ class TrainsTableSeeder extends Seeder
         $newTrain->Orario_partenza = '12:05';
         $newTrain->Orario_arrivo = '14:00';
         $newTrain->Codice_treno = 'fwheeu67';
-        $newTrain->Numero_carNumero_carrozzerozze = 5;
-        $newTrain->In_orario = 1;
-        $newTrain->Cancellato = 0;
+        $newTrain->Numero_carrozze = 5;
+        $newTrain->save();
     }
 }
